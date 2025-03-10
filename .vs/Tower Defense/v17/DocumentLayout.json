@@ -1,0 +1,394 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UnityProjects\\Tower Defense\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\assetloadingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assetloadingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|d:\\unityprojects\\tower defense\\assets\\scripts\\levelscripts\\waveaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelscripts\\waveaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\levelscripts\\wavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelscripts\\wavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\levelscripts\\wave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelscripts\\wave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\turrets\\towerplacedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turrets\\towerplacedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\turrets\\turretupgradedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turrets\\turretupgradedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\turrets\\turretdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turrets\\turretdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\levelscripts\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelscripts\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\levelscripts\\waveenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelscripts\\waveenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\levelscripts\\wavedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelscripts\\wavedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\enemies\\basicenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\basicenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\tileclickhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tileclickhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\turrets\\turretbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turrets\\turretbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\turrets\\turretupgrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turrets\\turretupgrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\projectiles\\basicbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectiles\\basicbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\enemies\\enemybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\enemybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\menus\\turretupgrademenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\turretupgrademenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\menus\\turretattributemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\turretattributemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\basehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\basehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\eventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\eventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|D:\\UnityProjects\\Tower Defense\\assets\\scripts\\projectiles\\projectilebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectiles\\projectilebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TurretAttributeMenu.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Menus\\TurretAttributeMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\TurretAttributeMenu.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Menus\\TurretAttributeMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menus\\TurretAttributeMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T16:04:54.533Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TurretUpgradeMenu.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Menus\\TurretUpgradeMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\TurretUpgradeMenu.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Menus\\TurretUpgradeMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menus\\TurretUpgradeMenu.cs",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAowMEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T16:21:32.265Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TurretBase.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Turrets\\TurretBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Turrets\\TurretBase.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Turrets\\TurretBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Turrets\\TurretBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T20:14:58.389Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TileClickHandler.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\TileClickHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TileClickHandler.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\TileClickHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TileClickHandler.cs",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAuwMIAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T16:04:31.373Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WaveAction.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\LevelScripts\\WaveAction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelScripts\\WaveAction.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\LevelScripts\\WaveAction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelScripts\\WaveAction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T18:25:10.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Wave.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\LevelScripts\\Wave.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelScripts\\Wave.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\LevelScripts\\Wave.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelScripts\\Wave.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T18:25:09.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WaveEnemy.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\LevelScripts\\WaveEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelScripts\\WaveEnemy.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\LevelScripts\\WaveEnemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelScripts\\WaveEnemy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T18:25:09.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WaveData.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\LevelScripts\\WaveData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelScripts\\WaveData.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\LevelScripts\\WaveData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelScripts\\WaveData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T18:25:08.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BasicEnemy.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Enemies\\BasicEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\BasicEnemy.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Enemies\\BasicEnemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\BasicEnemy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T18:24:49.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssetLoadingManager.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\AssetLoadingManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AssetLoadingManager.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\AssetLoadingManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AssetLoadingManager.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T18:22:46.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WaveManager.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\LevelScripts\\WaveManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelScripts\\WaveManager.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\LevelScripts\\WaveManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelScripts\\WaveManager.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAcwFEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T17:13:51.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaseHandler.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\BaseHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BaseHandler.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\BaseHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BaseHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T16:46:31.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EventHandler.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\EventHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EventHandler.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\EventHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EventHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T17:58:11.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GameState.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\GameState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameState.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\GameState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameState.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T16:00:05.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "InputHandler.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\InputHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InputHandler.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\InputHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InputHandler.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T14:38:12.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EnemyBase.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Enemies\\EnemyBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemyBase.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Enemies\\EnemyBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\EnemyBase.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAqwDcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T17:29:21.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BasicBullet.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Projectiles\\BasicBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Projectiles\\BasicBullet.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Projectiles\\BasicBullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Projectiles\\BasicBullet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T18:02:15.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TurretUpgrade.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Turrets\\TurretUpgrade.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Turrets\\TurretUpgrade.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Turrets\\TurretUpgrade.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Turrets\\TurretUpgrade.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:20:32.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TowerPlaceData.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Turrets\\TowerPlaceData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Turrets\\TowerPlaceData.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Turrets\\TowerPlaceData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Turrets\\TowerPlaceData.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwC4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T15:39:28.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProjectileBase.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Projectiles\\ProjectileBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Projectiles\\ProjectileBase.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Projectiles\\ProjectileBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Projectiles\\ProjectileBase.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T17:57:39.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TurretUpgradeData.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Turrets\\TurretUpgradeData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Turrets\\TurretUpgradeData.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Turrets\\TurretUpgradeData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Turrets\\TurretUpgradeData.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T18:53:02.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TurretData.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Turrets\\TurretData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Turrets\\TurretData.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\Turrets\\TurretData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Turrets\\TurretData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T20:39:24.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnemyData.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\LevelScripts\\EnemyData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelScripts\\EnemyData.cs",
+              "ToolTip": "D:\\UnityProjects\\Tower Defense\\Assets\\Scripts\\LevelScripts\\EnemyData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelScripts\\EnemyData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T19:29:51.001Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+    "waves": [
+        {
+            "description": "The first wave introduces basic enemies with some surprises.",
+            "actions": [
+                {
+                    "type": "spawn",
+                    "enemyType": "Enemy_Basic_bigboy",
+                    "prototype": "Enemy_Basic",
+                    "variations": {
+                        "health": 30,
+                        "description": "A big boy enemy. Very girthy. May overwhelm you with its girth and tonnage."
+                    },
+                    "amount": 3,
+                    "duration": 1
+                },
+                {
+                    "type": "spawn",
+                    "enemyType": "Enemy_Flying",
+                    "prototype": "",
+                    "variations": {},
+                    "amount": 5,
+                    "duration": 0.5
+                },
+                {
+                    "type": "spawn",
+                    "enemyType": "Enemy_Basic_stealth",
+                    "prototype": "Enemy_Basic",
+                    "variations": {
+                        "speed": 1.2,
+                        "health": 15,
+                        "color": "#6baa2f",
+                        "stealth": true,
+                        "description": "A basic stealth enemy. Can avoid most turrets by using its stealth capabilities."
+                    },
+                    "amount": 3,
+                    "duration": 0.8
+                },
+                {
+                    "type": "wait",
+                    "enemyType": "",
+                    "prototype": "",
+                    "amount": 0,
+                    "duration": 3
+                },
+                {
+                    "type": "spawn",
+                    "enemyType": "Enemy_Basic",
+                    "prototype": "",
+                    "variations": {},
+                    "amount": 3,
+                    "duration": 1
+                }
+            ]
+        },
+        {
+            "description": "The second wave introduces basic enemies with some surprises.",
+            "actions": [
+                {
+                    "type": "spawn",
+                    "enemyType": "Enemy_Fast",
+                    "prototype": "",
+                    "variations": {},
+                    "amount": 5,
+                    "duration": 1
+                },
+                {
+                    "type": "wait",
+                    "enemyType": "",
+                    "prototype": "",
+                    "amount": 0,
+                    "duration": 5
+                },
+                {
+                    "type": "spawn",
+                    "enemyType": "Enemy_Fast",
+                    "prototype": "",
+                    "variations": {},
+                    "amount": 5,
+                    "duration": 1
+                },
+                {
+                    "type": "wait",
+                    "enemyType": "",
+                    "prototype": "",
+                    "amount": 0,
+                    "duration": 5
+                },
+                {
+                    "type": "spawn",
+                    "enemyType": "Enemy_Fast",
+                    "prototype": "",
+                    "variations": {},
+                    "amount": 5,
+                    "duration": 1
+                }
+            ]
+        },
+        {
+            "description": "The third wave introduces basic enemies with some surprises.",
+            "actions": [
+                {
+                    "type": "spawn",
+                    "enemyType": "Enemy_Fast",
+                    "prototype": "",
+                    "variations": {},
+                    "amount": 5,
+                    "duration": 1
+                },
+                {
+                    "type": "wait",
+                    "enemyType": "",
+                    "prototype": "",
+                    "amount": 0,
+                    "duration": 5
+                },
+                {
+                    "type": "spawn",
+                    "enemyType": "Enemy_Fast",
+                    "prototype": "",
+                    "variations": {},
+                    "amount": 5,
+                    "duration": 1
+                },
+                {
+                    "type": "wait",
+                    "enemyType": "",
+                    "prototype": "",
+                    "amount": 0,
+                    "duration": 5
+                },
+                {
+                    "type": "spawn",
+                    "enemyType": "Enemy_Fast",
+                    "prototype": "",
+                    "variations": {},
+                    "amount": 5,
+                    "duration": 1
+                },
+                {
+                    "type": "spawn",
+                    "enemyType": "Enemy_Fast",
+                    "prototype": "",
+                    "variations": {},
+                    "amount": 5,
+                    "duration": 1
+                },
+                {
+                    "type": "wait",
+                    "enemyType": "",
+                    "prototype": "",
+                    "amount": 0,
+                    "duration": 5
+                },
+                {
+                    "type": "spawn",
+                    "enemyType": "Enemy_Fast",
+                    "prototype": "",
+                    "variations": {},
+                    "amount": 5,
+                    "duration": 1
+                },
+                {
+                    "type": "spawn",
+                    "enemyType": "Enemy_Fast",
+                    "prototype": "",
+                    "variations": {},
+                    "amount": 5,
+                    "duration": 1
+                },
+                {
+                    "type": "wait",
+                    "enemyType": "",
+                    "prototype": "",
+                    "variations": {},
+                    "amount": 0,
+                    "duration": 5
+                },
+                {
+                    "type": "spawn",
+                    "enemyType": "Enemy_Fast",
+                    "prototype": "",
+                    "variations": {},
+                    "amount": 5,
+                    "duration": 1
+                }
+            ]
+        }
+    ]
+}

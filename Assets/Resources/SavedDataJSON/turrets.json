@@ -1,0 +1,12 @@
+{
+    "turrets": [
+        {
+            "name": "BasicTurret",
+            "unlocked": false
+        },
+        {
+            "name": "SniperTurret",
+            "unlocked": false
+        }
+    ]
+}

@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8fea41fd641b53a4e8bb3fc4d269e765
+  m_SerializeEntries:
+  - m_GUID: aa80bd8f1f773fb42bfd8894faac8bd1
+    m_Address: SpriteBases/machinegun_turret_sprites
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc6059929d895264b91421186c05918b
+    m_Address: LevelJSON/testlevel1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - JSON
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65b2c67a2da9a474da1330ff0f529d8b
+    m_Address: TurretJSON/turrets
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b00e286eddf4f504ca3d1cd2d4769bef
+    m_Address: Enemy_Basic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eddfbfaf19bf3cf4bb77b6f3d250df51
+    m_Address: Enemy_Fast
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76bb166c0ed02c842a10832b32142362
+    m_Address: TurretBases/MachineGunTurret
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9032602057264014f94141105fa1e89c
+    m_Address: TurretBases/RocketTurret
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6a9c69100838644393c190af5d7111d
+    m_Address: TileBases/machinegun_turret_tile_Base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4334c607896aeff49a5c865135e00d25
+    m_Address: TileBases/machinegun_turret_tile_PathA1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a41729675cc1b7c4e98f2f96d3dff1dd
+    m_Address: TileBases/machinegun_turret_tile_PathA2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60f823a2f9d72434cb275cf0f0d979fc
+    m_Address: TileBases/rocketturret_base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8a6e43d962efc6448178a19ed796e6f
+    m_Address: TileBases/Wall
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0116b63ca4ecda409e490c2b1508876
+    m_Address: TileBases/machinegun_turret_tile_PathB2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 879dad486ad48274284cc562c6dd0a2d
+    m_Address: TileBases/outofbounds
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74e414feee1ec9b4eb66621d97e3e325
+    m_Address: TileBases/turret
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7554348cf2e044c4cb1fb2d540114eba
+    m_Address: BulletBases/MachineGunBulletPathB1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3868ae5643f82854bb58dcefa6484e43
+    m_Address: BulletBases/Rocket
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9a143ccd2fcc2b4b82f751648a3a13b
+    m_Address: BulletBases/MachineGunBulletPathB3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2aca2fbae68b8244895488d4ee8ef527
+    m_Address: BulletBases/MachineGunBulletBase
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f1bb603e9a0d6d4e9c7f8150f507f37
+    m_Address: BulletBases/MachineGunBulletPathB2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6970dfa078d374b6e87cac6abb8781c2
+    m_Address: Enemy_Flying
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ede6b24b060384039b2de84c8f3fc61c
+    m_Address: Assets/Sprites/machinegun_turret_sprites.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d61ce24f455f42199d4bc89c18a5b58
+    m_Address: Barrel_MachineGun_A2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b84d9e5f7fc54e37aa889ca60d0e632
+    m_Address: Barrel_MachineGun_B0.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d936ddbe4c8de42e98e5111ab4adc627
+    m_Address: Barrel_MachineGun_B1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ebf985947921456aaded66c9ad6e669
+    m_Address: Barrel_MachineGun_B2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9310631b65b664f9797a17c9643a4c6c
+    m_Address: Barrel_RocketLauncher_A2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 566c8d2ebccca46c89f29eaa020b4f6c
+    m_Address: Barrel_RocketLauncher_A3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9017cea016714421291b97d89a337d63
+    m_Address: Barrel_RocketLauncher_B1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b074880258974346a63fdfafd3b7b6d
+    m_Address: Barrel_RocketLauncher_B2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 281d01e53871b4e35b49fb44db28ad57
+    m_Address: Barrel_RocketLauncher_B3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7013a96d3ad14e2bafb8c4bdd5ca69e
+    m_Address: Barrel_RocketLauncher_B4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4bbcfa53cc7024d25a6a4a8a6af65189
+    m_Address: TileBases/rocket_tile_A1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a60944f318cd402391d93d72a0a7258
+    m_Address: TileBases/rockettile_A2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17f4a513456524feea6cb716b3920469
+    m_Address: BulletBases/RocketA1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b9ae4570d79744948db1240766e846a
+    m_Address: BulletBases/RocketA2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce8863c5d949a42d3869736ae5c47981
+    m_Address: BulletBases/RocketA3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: aefc54713ebeb4547a5e16f316c43303, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 40da6f2c3bb8a4649a2d177986595733, type: 2}
+    - {fileID: 11400000, guid: 92c7f693000b9db499ddd7c61d8d07a5, type: 2}
