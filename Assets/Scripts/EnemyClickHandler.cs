@@ -32,7 +32,7 @@ public class EnemyClickHandler : MonoBehaviour
     {
         cameraMain = Camera.main;
 
-        EventHandler.Instance.onDeselectEnemyEvent += EnemyDeselect;
+        EventHandler.Instance.OnDeselectEnemyEvent += EnemyDeselect;
     }
 
 

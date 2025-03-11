@@ -23,11 +23,19 @@ public class EventHandler : MonoBehaviour
 
     public event StartGameEventHandler StartGameEvent;
 
-    public event DeselectEnemyEventHandler onDeselectEnemyEvent;
+    public event DeselectEnemyEventHandler OnDeselectEnemyEvent;
 
     public delegate void CloseRoundPopupEventHandler();
 
-    public event CloseRoundPopupEventHandler onCloseRoundPopupEvent;
+    public event CloseRoundPopupEventHandler OnCloseRoundPopupEvent;
+
+    public delegate void TowersLoadedEventHandler();
+
+    public event TowersLoadedEventHandler OnTowersLoadedEvent;
+
+    public delegate void EnemiesLoadedEventHandler();
+
+    public event EnemiesLoadedEventHandler OnEnemiesLoadedEvent;
 
     public delegate void RightClickEventHandler();
 
@@ -57,11 +65,11 @@ public class EventHandler : MonoBehaviour
 
     public void InvokeDeselectEnemyEvent()
     {
-        onDeselectEnemyEvent?.Invoke();
+        OnDeselectEnemyEvent?.Invoke();
     }
     public void InvokeCloseRoundPopupEvent()
     {
-        onCloseRoundPopupEvent?.Invoke();
+        OnCloseRoundPopupEvent?.Invoke();
     }
 
     public void InvokeStartGameEvent()
@@ -72,5 +80,15 @@ public class EventHandler : MonoBehaviour
     public void InvokeRightClickEvent(int value)
     {
         OnRightClickEvent?.Invoke(value);
+    }
+
+    public void InvokeTowersLoadedEvent()
+    {
+        OnTowersLoadedEvent?.Invoke();
+    }
+
+    public void InvokeEnemiesLoadedEvent()
+    {
+        OnEnemiesLoadedEvent?.Invoke();
     }
 }

@@ -14,6 +14,7 @@ public class RightMenu : MonoBehaviour
     [SerializeField] TurretAttributeMenu turretAttributeMenu;
     [SerializeField] EnemyAttributeMenu enemyAttributeMenu;
     [SerializeField] GameObject closeOpenButton;
+    
 
 
     private bool isMenuOpen = false;
@@ -21,6 +22,7 @@ public class RightMenu : MonoBehaviour
 
     void Start()
     {
+        ResetMenu();
         //Event Code
 
         EventHandler.Instance.OnRightClickEvent += HandleRightClick;

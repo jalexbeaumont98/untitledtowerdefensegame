@@ -39,7 +39,7 @@ public class TowerMenuHandler : MonoBehaviour
         EventHandler.Instance.OnInputToggledEvent += SetDeselectButton;
 
         EventHandler.Instance.StartGameEvent += ToggleMenuButtonVisible;
-        EventHandler.Instance.onCloseRoundPopupEvent += OpenMenu;
+        EventHandler.Instance.OnCloseRoundPopupEvent += OpenMenu;
         
     }
 

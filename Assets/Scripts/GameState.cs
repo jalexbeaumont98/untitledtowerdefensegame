@@ -12,6 +12,7 @@ public class GameState : MonoBehaviour
     [SerializeField] public GameObject towerHighlightPrefab, rangeCirclePrefab;
 
     [SerializeField] public GameObject MainMenuPrefab;
+    [SerializeField] public GameObject LoadingBarPrefab;
 
 
     public IReadOnlyList<TowerPlaceData> Towers => towers;
@@ -51,9 +52,11 @@ public class GameState : MonoBehaviour
     private void Start()
     {
 
-
+        LoadingBarPrefab.SetActive(true);
 
         savedGameTime = 1;
+
+
     }
 
     public void StartGame()
@@ -61,18 +64,45 @@ public class GameState : MonoBehaviour
         EventHandler.Instance.InvokeStartGameEvent();
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
     public void LoadFinish(int type)
     {
-        if (type == 0) loadedTowers = true;
-        if (type == 1) loadedEnemies = true;
+        if (type == 0)
+        {
+            loadedTowers = true;
+            EventHandler.Instance.InvokeTowersLoadedEvent();
+        }
+         
+        if (type == 1)
+        {
+            loadedEnemies = true;
+            EventHandler.Instance.InvokeEnemiesLoadedEvent();
+        }
+         
 
         if (loadedEnemies && loadedTowers)
         {
             print("game is ready to start");
-            MainMenuPrefab.SetActive(true);
+
+            StartCoroutine(SetObjectEnabledDisabledOnDelay(LoadingBarPrefab, 0.1f, false));
+            StartCoroutine(SetObjectEnabledDisabledOnDelay(MainMenuPrefab, 0.2f, true));
+            //MainMenuPrefab.SetActive(true);
         }
-        
-         
+
+
+    }
+
+    IEnumerator SetObjectEnabledDisabledOnDelay(GameObject go, float delay, bool isActive)
+    {
+        // Wait for the specified delay
+        yield return new WaitForSeconds(delay);
+
+        go.SetActive(isActive);
+
     }
 
     public string GetLevelName()
@@ -150,6 +180,16 @@ public class GameState : MonoBehaviour
 
     }
 
+    public void PauseTime()
+    {
+        if (Time.timeScale != 0) ToggleTime();
+    }
+
+    public void ResumeTime()
+    {
+        if (Time.timeScale == 0) ToggleTime();
+    }
+
     public void SetTime()
     {
 
@@ -174,6 +214,12 @@ public class GameState : MonoBehaviour
         OnTimeChanged?.Invoke();
 
 
+    }
+
+    public bool IsTimePaused()
+    {
+        if (Time.timeScale > 0) return false;
+        return true;
     }
 
     public float GetSavedGameTime()

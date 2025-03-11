@@ -17,12 +17,14 @@ public class BottomMenuHandler : MonoBehaviour
     [SerializeField] private TextMeshProUGUI baseHealthText;
     [SerializeField] private BaseHandler baseHandler;
     [SerializeField] private GameObject RoundDescriptionPopup;
+    [SerializeField] private GameObject PauseMenuPopup;
 
     [SerializeField] private bool waveComplete = false;
     [SerializeField] private bool levelComplete = false;
 
 
     [SerializeField] private GameObject RoundPopupInstance;
+    [SerializeField] Animator anim;
 
     // Method to handle the event
     private void HandleBoolEvent(bool value)
@@ -44,6 +46,8 @@ public class BottomMenuHandler : MonoBehaviour
 
         pauseButtonText = pauseTimeButton.GetComponentInChildren<TextMeshProUGUI>();
 
+        anim = GetComponent<Animator>();
+
 
         //Event Code
 
@@ -60,6 +64,8 @@ public class BottomMenuHandler : MonoBehaviour
         gameState.OnTimeChanged += () => SetWaveButtonFastForward();
 
         EventHandler.Instance.OnTimeToggledEvent += SetPauseTimeButton;
+
+        EventHandler.Instance.StartGameEvent += OpenMenu;
 
         //End Event Code
 
@@ -95,6 +101,11 @@ public class BottomMenuHandler : MonoBehaviour
 
 
 
+    }
+
+    private void OpenMenu()
+    {
+        anim.SetBool("start", true);
     }
 
     private void SetBaseHealthText()
@@ -194,6 +205,13 @@ public class BottomMenuHandler : MonoBehaviour
             }
 
         }
+    }
+
+    public void OpenPauseMenu()
+    {
+        GameState.Instance.PauseTime();
+        PauseMenuPopup.SetActive(true);
+
     }
 
 

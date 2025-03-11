@@ -64,17 +64,17 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.37f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library/PackageCache/com.unity.2d.tilemap.extras@3.1.2/Editor/Tiles/RuleOverrideTile/PopulateRuleOverrideTileWizard.cs" />
     <Compile Include="Library/PackageCache/com.unity.2d.tilemap.extras@3.1.2/Editor/Brushes/LineBrush/LineBrush.cs" />
     <Compile Include="Library/PackageCache/com.unity.2d.tilemap.extras@3.1.2/Editor/Tiles/HexagonalRuleTile/HexagonalRuleTileEditor.cs" />
     <Compile Include="Library/PackageCache/com.unity.2d.tilemap.extras@3.1.2/Editor/Tiles/RuleOverrideTile/AdvancedRuleOverrideTileEditor.cs" />
-    <Compile Include="Library/PackageCache/com.unity.2d.tilemap.extras@3.1.2/Editor/Tiles/RuleTile/RuleTileEditor.cs" />
-    <Compile Include="Library/PackageCache/com.unity.2d.tilemap.extras@3.1.2/Editor/Brushes/RandomBrush/RandomBrush.cs" />
-    <Compile Include="Library/PackageCache/com.unity.2d.tilemap.extras@3.1.2/Editor/Menu/CustomRuleTileMenu.cs" />
-    <Compile Include="Library/PackageCache/com.unity.2d.tilemap.extras@3.1.2/Editor/Tiles/RuleOverrideTile/PopulateRuleOverrideTileWizard.cs" />
     <Compile Include="Library/PackageCache/com.unity.2d.tilemap.extras@3.1.2/Editor/Brushes/GameObjectBrush/GameObjectBrush.cs" />
+    <Compile Include="Library/PackageCache/com.unity.2d.tilemap.extras@3.1.2/Editor/Tiles/RuleTile/RuleTileEditor.cs" />
     <Compile Include="Library/PackageCache/com.unity.2d.tilemap.extras@3.1.2/Editor/Tiles/IsometricRuleTile/IsometricRuleTileEditor.cs" />
     <Compile Include="Library/PackageCache/com.unity.2d.tilemap.extras@3.1.2/Editor/Tiles/RuleOverrideTile/RuleOverrideTileEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.2d.tilemap.extras@3.1.2/Editor/Brushes/RandomBrush/RandomBrush.cs" />
     <Compile Include="Library/PackageCache/com.unity.2d.tilemap.extras@3.1.2/Editor/Tiles/AnimatedTile/AnimatedTileEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.2d.tilemap.extras@3.1.2/Editor/Menu/CustomRuleTileMenu.cs" />
     <Compile Include="Library/PackageCache/com.unity.2d.tilemap.extras@3.1.2/Editor/Brushes/GroupBrush/GroupBrush.cs" />
     <Compile Include="Library/PackageCache/com.unity.2d.tilemap.extras@3.1.2/Editor/Menu/MenuItemOrder.cs" />
   </ItemGroup>
@@ -439,7 +439,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <HintPath>Library/PackageCache/com.unity.collections@2.5.3/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library/PackageCache/com.unity.ext.nunit@2.0.3/net40/unity-custom/nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="unityplastic">
@@ -462,6 +466,10 @@
       <HintPath>Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.IO.Hashing">
+      <HintPath>Library/PackageCache/com.unity.collections@2.5.3/Unity.Collections.Tests/System.IO.Hashing/System.IO.Hashing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
@@ -474,8 +482,12 @@
       <HintPath>Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Library/PackageCache/com.unity.collections@2.5.3/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
